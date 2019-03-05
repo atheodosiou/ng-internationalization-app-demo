@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="pageH1Tag" datatype="html">
+        <source>
+  Personal Information System
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label1" datatype="html">
+        <source>
+        Person Id
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label2" datatype="html">
+        <source>
+        Person Name
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label3" datatype="html">
+        <source>
+        Person Address
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label4" datatype="html">
+        <source>
+        Person City
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label5" datatype="html">
+        <source>
+        Person State
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label6" datatype="html">
+        <source>
+        Person Occupation
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label7" datatype="html">
+        <source>New</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label8" datatype="html">
+        <source>Save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="columnHeaderCaptions" datatype="html">
+        <source>{VAR_SELECT, select, c {c} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/person-info/person-info.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
