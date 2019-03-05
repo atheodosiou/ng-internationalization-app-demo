@@ -52,6 +52,13 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/ng-internationalization-app-fr",
+              "i18nFile": "src/i18n/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr"
             }
           }
         },
@@ -63,6 +70,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ng-internationalization-app:build:production"
+            },
+            "fr": {
+              "browserTarget": "ng-internationalization-app:build:fr"
             }
           }
         },
@@ -99,6 +109,21 @@
             "exclude": [
               "**/node_modules/**"
             ]
+          }
+        },
+        "xliffmerge": {
+          "builder": "@ngx-i18nsupport/tooling:xliffmerge",
+          "options": {
+            "xliffmergeOptions": {
+              "i18nFormat": "xlf",
+              "srcDir": "src/i18n",
+              "genDir": "src/i18n",
+              "defaultLanguage": "en",
+              "languages": [
+                "en",
+                "fr"
+              ]
+            }
           }
         }
       }
