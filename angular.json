@@ -29,7 +29,7 @@
             "es5BrowserSupport": true
           },
           "configurations": {
-            "production": {
+            "production-fr": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -51,14 +51,55 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "outputPath": "dist/fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
             },
             "fr": {
               "aot": true,
-              "outputPath": "dist/ng-internationalization-app-fr",
-              "i18nFile": "src/i18n/messages.fr.xlf",
+              "outputPath": "dist/fr",
+              "i18nFile": "src/locale/messages.fr.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "fr"
+            },
+            "production-en": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ],
+              "outputPath": "dist/en/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/en",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en"
             }
           }
         },
@@ -73,6 +114,9 @@
             },
             "fr": {
               "browserTarget": "ng-internationalization-app:build:fr"
+            },
+            "en": {
+              "browserTarget": "ng-internationalization-app:build:en"
             }
           }
         },
