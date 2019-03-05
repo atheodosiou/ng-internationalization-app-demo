@@ -5,8 +5,8 @@
       <trans-unit id="pageH1Tag" datatype="html">
         <source>
   Personal Information System
-</source><target state="new">
-  Personal Information System
+</source><target state="final">
+ Système d'information personnel
 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -16,8 +16,8 @@
       <trans-unit id="label1" datatype="html">
         <source>
         Person Id
-      </source><target state="new">
-        Person Id
+      </source><target state="final">
+        ID de personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -27,8 +27,8 @@
       <trans-unit id="label2" datatype="html">
         <source>
         Person Name
-      </source><target state="new">
-        Person Name
+      </source><target state="final">
+        Nom d'une personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -38,8 +38,8 @@
       <trans-unit id="label3" datatype="html">
         <source>
         Person Address
-      </source><target state="new">
-        Person Address
+      </source><target state="final">
+        Adresse de la personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -49,8 +49,8 @@
       <trans-unit id="label4" datatype="html">
         <source>
         Person City
-      </source><target state="new">
-        Person City
+      </source><target state="final">
+        Ville de la personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -60,8 +60,8 @@
       <trans-unit id="label5" datatype="html">
         <source>
         Person State
-      </source><target state="new">
-        Person State
+      </source><target state="final">
+        Etat de la personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -71,8 +71,8 @@
       <trans-unit id="label6" datatype="html">
         <source>
         Person Occupation
-      </source><target state="new">
-        Person Occupation
+      </source><target state="final">
+        Occupation de la personne
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
@@ -80,14 +80,14 @@
         </context-group>
       </trans-unit>
       <trans-unit id="label7" datatype="html">
-        <source>New</source><target state="new">New</target>
+        <source>New</source><target state="final">Nouveau</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
           <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="label8" datatype="html">
-        <source>Save</source><target state="new">Save</target>
+        <source>Save</source><target state="final">Sauvegarder</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/person-info/person-info.component.html</context>
           <context context-type="linenumber">67</context>
