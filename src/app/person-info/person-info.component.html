@@ -1,3 +1,85 @@
-<p>
-  person-info works!
-</p>
+<h1 i18n="@@pageH1Tag" style="text-align: center">
+  Personal Information System
+</h1>
+<div class="container">
+  <table class="table table-bordered table-striped">
+    <tr>
+      <td i18n="@@label1">
+        Person Id
+      </td>
+      <td>
+        <input type="text" class="form-control" [(ngModel)]="person.PersonId">
+      </td>
+    </tr>
+    <tr>
+      <td i18n="@@label2">
+        Person Name
+      </td>
+      <td>
+        <input type="text" class="form-control" [(ngModel)]="person.PersonName">
+      </td>
+    </tr>
+    <tr>
+      <td i18n="@@label3">
+        Person Address
+      </td>
+      <td>
+        <input type="text" class="form-control" [(ngModel)]="person.Address">
+      </td>
+    </tr>
+    <tr>
+      <td i18n="@@label4">
+        Person City
+      </td>
+      <td>
+        <input type="text" class="form-control" [(ngModel)]="person.City">
+      </td>
+    </tr>
+    <tr>
+      <td i18n="@@label5">
+        Person State
+      </td>
+      <td>
+        <select class="form-control" [(ngModel)]="person.State">
+          <option *ngFor="let s of states" value="{{s}}">
+            {{s}}
+          </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td i18n="@@label6">
+        Person Occupation
+      </td>
+      <td>
+        <select class="form-control" [(ngModel)]="person.Occupation">
+          <option *ngFor="let o of occupations" value="{{o}}">
+            {{o}}
+          </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button i18n="@@label7" type="button" (click)="clear()" class="btn btn-default">New</button>
+      </td>
+      <td>
+        <button i18n="@@label8" type="button" (click)="save()" class="btn btn-success">Save</button>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="container">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th i18n="@@columnHeaderCaptions" *ngFor="let c of tableColumns">{c,select,c{c}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let per of persons" (click)="getSelectedData(per)">
+        <td *ngFor="let c of tableColumns">{{per[c]}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
